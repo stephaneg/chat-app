@@ -43,7 +43,7 @@ func returnSingleArticle(w http.ResponseWriter, r *http.Request) {
 }
 
 func handleRequests() {
-
+	// Gorilla router
 	myRouter := mux.NewRouter()
 	myRouter.HandleFunc("/", homePage)
 	myRouter.HandleFunc("/all", returnAllArticles)
