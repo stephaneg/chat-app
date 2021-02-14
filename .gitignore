@@ -13,3 +13,11 @@
 
 # Dependency directories (remove the comment below to include it)
 # vendor/
+
+
+# certificates
+server.key
+server.crt
+
+# react
+node_modules
